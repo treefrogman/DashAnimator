@@ -6,11 +6,10 @@ The DashAnimator constructor takes an SVG shape element, an options object, and 
 
 A Dash object has the following properties:
 
-- starting point
+- offset
 - length
 - move speed (offset delta per milisecond)
 - size speed (length delta per milisecond)
-- current offset
 
 Distances/lengths can be gotten and set as either percentages of the line length or as SVG units.
 
