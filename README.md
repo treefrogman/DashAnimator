@@ -1,5 +1,4 @@
 # DashAnimator
-/*
 The DashAnimator constructor takes an SVG shape element, an options object, and an optional array of Dash objects. The DashAnimator object has methods to add more Dash objects, or to remove some.
 
 A Dash object has the following properties:
@@ -19,4 +18,3 @@ or
 2) a JS-parsable number, optionally followed by a precent sign. If followed by a percent sign, the number will be interpreted as a percentage of the length of the line. Otherwise the number will be interpreted as SVG drawing units (almost like pixels). Negative values and values over 100% are accepted.
 
 Dash objects do not have style properties associated with them as those must be applied at the element level.
-*/
