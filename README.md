@@ -12,8 +12,8 @@ Distances/lengths can be gotten and set as either percentages of the line length
 The Dash object also includes an option for how to handle changes in the length of the target path (scale proportionally, align start, align end, align center.
 
 The Dash object can also have callbacks associated with various points along its progression. These are specified as an array of objects, each with a "callback" property containing the callback function, and a "trigger" property indicating which progress event should trigger the callback.
-The "trigger" property is a string consisting of a single character indicating which end of the dash is in question——either "n" for the leading or eNtering end, or "x" for the trailing or eXiting end——followed by either
-1) a single character indicating one end of the line——either "s" for the Start of the line or "e" for the End.
+The "trigger" property is a string consisting of a single character indicating which end of the dash is in question—either "n" for the leading or eNtering end, or "x" for the trailing or eXiting end—followed by either
+1) a single character indicating one end of the line—either "s" for the Start of the line or "e" for the End.
 or
 2) a JS-parsable number, optionally followed by a precent sign. If followed by a percent sign, the number will be interpreted as a percentage of the length of the line. Otherwise the number will be interpreted as SVG drawing units (almost like pixels). Negative values and values over 100% are accepted.
 
