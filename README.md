@@ -1,4 +1,7 @@
 # DashAnimator
+svg supports dashed lines, and by updating the dasharray every frame you can create a variety of effects. this library provides a simple interface for managing multiple dashes on one line, moving at independent rates.
+
+# Specs
 The DashAnimator constructor takes an SVG shape element, an options object, and an optional array of Dash objects. The DashAnimator object has methods to add more Dash objects, or to remove some.
 
 A Dash object has the following properties:
