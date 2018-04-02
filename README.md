@@ -8,7 +8,6 @@ A Dash object has the following properties:
 
 - starting point
 - length
-- direction
 - move speed (offset delta per milisecond)
 - size speed (length delta per milisecond)
 - current offset
